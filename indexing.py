@@ -4644,7 +4644,7 @@ class StringMapIndex(Indexing):
     auxiliary.check_is_positive('grid_resolution', self.grid_resolution)
     if (self.grid_resolution not in [10,100,1000,10000]):
       logging.exception('Argument "grid_resolution" is not a power of 10 ' + \
-                        'number: %d' % (elf.grid_resolution))
+                        'number: %d' % (self.grid_resolution))
       raise Exception
 
     # Check if canopy method and parameters given are OK - - - - - - - - - - -

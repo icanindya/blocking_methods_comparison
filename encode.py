@@ -1975,3 +1975,14 @@ if (__name__ == '__main__'):
           phonix_my)
 
 # =============================================================================
+
+def get_sex(s):
+  """Simple function to extract and return a substring from the given input
+     string.
+  """
+  
+  if s == 'M':
+       return '-'
+  else:
+       return '+'
+  

@@ -102,6 +102,7 @@ TODO: DecisionTree    Supervised decision tree induction based classifier.
 
 # =============================================================================
 # Import necessary modules (Python standard modules first, then Febrl modules)
+from re import match
 
 import auxiliary
 import mymath
